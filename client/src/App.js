@@ -1,8 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { getListing } from "./learn/accessApiEleveneia";
 
 function App() {
+  (async () => {
+    const list = await getListing();
+    console.log(list);
+  })();
+
   return (
     <div className="App">
       <header className="App-header">
