@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ReactJobSeeker/full-stack-elevenia.git"
+  },
+  "author": "Syahrul Rofi, Adnan Radja Maulana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReactJobSeeker/full-stack-elevenia/issues"
+  },
+  "homepage": "https://github.com/ReactJobSeeker/full-stack-elevenia#readme",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0"
+  }
+}
